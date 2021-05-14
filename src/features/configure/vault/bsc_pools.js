@@ -121,6 +121,31 @@ export const bscPools = [
   },
 
   {
+    id: 'garuda-garuda',
+    logo: 'degens/garuda.png',
+    name: 'GARUDA',
+    token: 'GARUDA',
+    tokenDescription: 'Garuda',
+    tokenAddress: '0x854086dC841e1bfae50Cb615bF41f55BF432a90b',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooGarudaGARUDA',
+    earnedTokenAddress: '0x731a89Eb7C7b60E47dFc92fDcbf21265b0a7F32E',
+    earnContractAddress: '0x731a89Eb7C7b60E47dFc92fDcbf21265b0a7F32E',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'GARUDA',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    assets: ['GARUDA'],
+    callFee: 0.5,
+    buyTokenUrl:
+      'https://exchange.marshmallowdefi.com/#/swap?outputCurrency=0x854086dC841e1bfae50Cb615bF41f55BF432a90b',
+  },
+
+  {
     id: 'bunny-bunny',
     logo: 'single-assets/BUNNY.png',
     name: 'BUNNY',
